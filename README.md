@@ -1,6 +1,6 @@
 # Sugar-Lens
 
-Sugar Lens – Diabetes Prediction & Insights for Indian Population 
+Sugar Lens – Diabetes Prediction & Insights for Indian Population using Data analytics and machine learning 
 
 Overview:
 Sugar Lens is a full-stack data analytics and machine learning project built to predict diabetes and analyze its patterns among Indian citizens using real-world government 
