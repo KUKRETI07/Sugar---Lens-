@@ -53,7 +53,8 @@ Workflow
 
 * Government health budget distribution
 
-* Hospital availability
+* Hospital availability in each state of india 
+  
 
 3. EDA in Python
 
@@ -62,6 +63,7 @@ Workflow
 * Heatmap for feature correlation (e.g., smoking, BMI vs. diabetes)
 
 * Transformed categorical to numeric values for modeling.
+  
 
 4. Machine Learning Pipeline
 
@@ -69,15 +71,14 @@ Workflow
 
 * Feature importance plotted to highlight impactful features.
 
-* Trained multiple models:
-
-Decision Tree
+* Trained multiple models
 
 * Logistic Regression (Final choice: 95% Accuracy, 94% F1 Score)
 
 * Hyperparameter tuning using GridSearchCV.
 
 * Deployed final LR model locally.
+  
 
 5. Power BI Dashboard
 
@@ -87,22 +88,6 @@ Decision Tree
 
 * Patient Health Analytics: BMI, glucose, age trends, and feature correlations.
 
-
-Sugar-Lens/
-├── data/
-│   ├── gov_india_data.csv
-│   └── kaggle_medical_data.csv
-├── notebooks/
-│   └── diabetes_analysis.ipynb
-├── sql_queries/
-│   └── insights.sql
-├── models/
-│   └── diabetes_lr_model.pkl
-├── powerBI_dashboard/
-│   ├── dashboard_national.pbix
-│   └── dashboard_medical.pbix
-├── requirements.txt
-└── README.md
 
 
 Key Insights
