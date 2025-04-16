@@ -9,40 +9,41 @@ Sugar Lens is a full-stack data analytics and machine learning project built to 
 
 Tech Stack:
 
-   SQL (MySQL) – Data Cleaning, Joins, Aggregations, Case Logic
+ 1. SQL (MySQL) – Data Cleaning, Joins, Aggregations, Case Logic
 
-   Python (Pandas, Sklearn, Matplotlib, Seaborn) – Data Analysis, Feature Engineering, ML Modeling
+   2. Python (Pandas, Sklearn, Matplotlib, Seaborn) – Data Analysis, Feature Engineering, ML Modeling
 
-   Machine Learning Models: Logistic Regression, Decision Tree, Random Forest, SVM
+   3. Machine Learning Models: Logistic Regression, Decision Tree, Random Forest, SVM
 
-   Model Evaluation: F1 Score (94%), Accuracy (95%), Cross-Validation, Feature Importance
+   4. Model Evaluation: F1 Score (94%), Accuracy (95%), Cross-Validation, Feature Importance
 
-   Power BI – Interactive Dashboards with Diabetic Risk Factors & State-wise Insights
+   5 .Power BI – Interactive Dashboards with Diabetic Risk Factors & State-wise Insights
 
 
 
 Key Features:
 
-   Cleaned and merged real-world Indian government health data with biological datasets from Kaggle
+   1. Cleaned and merged real-world Indian government health data with biological datasets from Kaggle
 
-   Identified top diabetic-affected states using SQL queries and visualizations
+   2. Identified top diabetic-affected states using SQL queries and visualizations
 
-   Built a Diabetic Risk Scorecard which shows how much are you in risk of having diabetes ( using Random Forest model )
+   3. Built a Diabetic Risk Scorecard which shows how much are you in risk of having diabetes ( using Random Forest model )
 
-   Trained and hypertuned multiple models; finalized Logistic Regression (C=100, penalty=‘l1’)
+   4. Trained and hypertuned multiple models; finalized Logistic Regression (C=100, penalty=‘l1’)
 
-   Created interactive Power BI dashboards to visualize critical metrics and feature importance
+   5. Created interactive Power BI dashboards to visualize critical metrics and feature importance
 
 
 
 Key Insights:
 
-   south india mainly tamil Nadu and Uttarpardesh have highest numbers of diabetes patient in hospital acrosss india 
-    Average BMI and glucose levels of diabetic patients
+   1. south india mainly tamil Nadu and Uttarpardesh have highest numbers of diabetes patient in hospital acrosss india 
 
-   Strong correlation between smoking, BMI, and diabetes risk
+   2. Average BMI and glucose levels of diabetic patients is 25 and 200
 
-   Feature importance showed ‘Glucose Level’, ‘BMI’, and ‘Age’ as top risk indicators
+   3. Strong correlation between smoking, BMI, and diabetes risk
+
+   4. Feature importance showed ‘Glucose Level’, ‘BMI’, and ‘Age’ as top risk indicators
 
 
 
@@ -53,6 +54,6 @@ Deployment:
 
 Output:
 
-   Python model predicting diabetes with 95% accuracy
+  1. Python model predicting diabetes with 95% accuracy
 
-   Power BI dashboards visualizing EDA insights & risk mapping
+   2 .Power BI dashboards visualizing EDA insights & risk mapping
