@@ -1,56 +1,131 @@
 # Sugar-Lens
 
-Sugar Lens – Diabetes Prediction & Insights for Indian Population using Data analytics and machine learning 
+Overview
 
-Overview: Sugar Lens is a full-stack data analytics and machine learning project built to predict diabetes and analyze its patterns among Indian citizens using real-world government 
-& biological data.
-
-
-Tech Stack:
-
- 1. SQL (MySQL) – Data Cleaning, Joins, Aggregations, Case Logic
-
-   2. Python (Pandas, Sklearn, Matplotlib, Seaborn) – Data Analysis, Feature Engineering, ML Modeling
-
-   3. Machine Learning Models: Logistic Regression, Decision Tree, Random Forest, SVM
-
-   4. Model Evaluation: F1 Score (94%), Accuracy (95%), Cross-Validation, Feature Importance
-
-   5. Power BI – Interactive Dashboards with Diabetic Risk Factors & State-wise Insights
+Sugar Lens is a full-stack Data Analytics and Machine Learning project aimed at analyzing and predicting diabetes risk in the Indian population. This end-to-end project integrates real-world data sources, machine learning models, and interactive dashboards to extract valuable health insights.
 
 
+Objectives
 
-Key Features:
+* Analyze diabetes prevalence across Indian states.
 
-   1. Cleaned and merged real-world Indian government health data with biological datasets from Kaggle
+* Predict diabetes risk using medical and lifestyle parameters.
 
-   2. Identified top diabetic-affected states using SQL queries and visualizations
+* Identify key features causing diabetes in the Indian population.
 
-   3. Built a Diabetic Risk Scorecard which shows how much are you in risk of having diabetes ( using Random Forest model )
-
-   4. Trained and hypertuned multiple models; finalized Logistic Regression (C=100, penalty=‘l1’)
-
-   5. Created interactive Power BI dashboards to visualize critical metrics and feature importance
+* Visualize insights using Power BI for data storytelling.
 
 
+Tools & Technologies
 
-Key Insights:
+* SQL (MySQL): Data cleaning, transformation, and analysis
 
-   1. south india mainly tamil Nadu and Uttarpardesh have highest numbers of diabetes patient in hospital acrosss india 
+* Python (Jupyter Notebook): Data wrangling, EDA, ML modeling
 
-   2. Average BMI and glucose levels of diabetic patients is 25 and 200
+* Power BI: Interactive dashboards and data visualization
 
-   3. Strong correlation between smoking, BMI, and diabetes risk
-
-   4. Feature importance showed ‘Glucose Level’, ‘BMI’, and ‘Age’ as top risk indicators and more 
-
+* Machine Learning: Random Forest, Logistic Regression, Decision Tree
 
 
-Deployment:   LR model deployed locally to predict diabetes using medical parameters
+Data Sources
+
+* Indian Government & WHO Data: Number of diabetic patients, hospitals, state-wise distribution, budget allocations.
+
+* Kaggle Dataset: Biological and lifestyle data relevant to diabetes risk.
 
 
-Output:
+Workflow
 
-   1. Python model predicting diabetes with 95% accuracy
+1. Data Collection & Cleaning
 
-   2 .Power BI dashboards visualizing EDA insights & risk mapping
+* Merged Indian demographic/medical data with Kaggle biological dataset.
+
+* Cleaned datasets: handled nulls, removed duplicates, standardized column names.
+
+
+2. SQL Analysis
+
+* Performed joins, CASE statements, aggregations.
+
+* Derived insights like:
+
+* Top states by diabetic patient count
+
+* Government health budget distribution
+
+* Hospital availability
+
+3. EDA in Python
+
+* Visualized distributions of BMI, blood glucose levels, age, etc.
+
+* Heatmap for feature correlation (e.g., smoking, BMI vs. diabetes)
+
+* Transformed categorical to numeric values for modeling.
+
+4. Machine Learning Pipeline
+
+* Created a Diabetes Risk Scorecard using Random Forest.
+
+* Feature importance plotted to highlight impactful features.
+
+* Trained multiple models:
+
+Decision Tree
+
+* Logistic Regression (Final choice: 95% Accuracy, 94% F1 Score)
+
+* Hyperparameter tuning using GridSearchCV.
+
+* Deployed final LR model locally.
+
+5. Power BI Dashboard
+
+* Two fully functional dashboards:
+
+* National Diabetes Trends: Prevalence by state, budget visualization, hospital infrastructure.
+
+* Patient Health Analytics: BMI, glucose, age trends, and feature correlations.
+
+
+Sugar-Lens/
+├── data/
+│   ├── gov_india_data.csv
+│   └── kaggle_medical_data.csv
+├── notebooks/
+│   └── diabetes_analysis.ipynb
+├── sql_queries/
+│   └── insights.sql
+├── models/
+│   └── diabetes_lr_model.pkl
+├── powerBI_dashboard/
+│   ├── dashboard_national.pbix
+│   └── dashboard_medical.pbix
+├── requirements.txt
+└── README.md
+
+
+Key Insights
+
+* Over 60% of diabetic patients are concentrated in 8 Indian states.
+
+* Smoking and BMI are two of the top features associated with diabetes.
+
+* Logistic Regression outperformed other models in both accuracy and interpretability.
+
+* Power BI dashboards provide clear, actionable health insights for policymakers and health departments.
+
+
+
+Future Scope
+
+* Host model using Streamlit or Flask on cloud.
+
+* Integrate real-time data APIs.
+
+* Collaborate with NGOs or government agencies for deployment
+
+
+
+
+
