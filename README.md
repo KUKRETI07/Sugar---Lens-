@@ -2,8 +2,7 @@
 
 Sugar Lens – Diabetes Prediction & Insights for Indian Population using Data analytics and machine learning 
 
-Overview:
-Sugar Lens is a full-stack data analytics and machine learning project built to predict diabetes and analyze its patterns among Indian citizens using real-world government 
+Overview: Sugar Lens is a full-stack data analytics and machine learning project built to predict diabetes and analyze its patterns among Indian citizens using real-world government 
 & biological data.
 
 
@@ -17,7 +16,7 @@ Tech Stack:
 
    4. Model Evaluation: F1 Score (94%), Accuracy (95%), Cross-Validation, Feature Importance
 
-   5 .Power BI – Interactive Dashboards with Diabetic Risk Factors & State-wise Insights
+   5. Power BI – Interactive Dashboards with Diabetic Risk Factors & State-wise Insights
 
 
 
@@ -47,13 +46,11 @@ Key Insights:
 
 
 
-Deployment:
-
-   LR model deployed locally to predict diabetes using medical parameters
+Deployment:   LR model deployed locally to predict diabetes using medical parameters
 
 
 Output:
 
-  1. Python model predicting diabetes with 95% accuracy
+   1. Python model predicting diabetes with 95% accuracy
 
    2 .Power BI dashboards visualizing EDA insights & risk mapping
