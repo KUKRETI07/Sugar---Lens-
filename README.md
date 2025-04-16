@@ -42,7 +42,7 @@ Key Insights:
 
    3. Strong correlation between smoking, BMI, and diabetes risk
 
-   4. Feature importance showed ‘Glucose Level’, ‘BMI’, and ‘Age’ as top risk indicators
+   4. Feature importance showed ‘Glucose Level’, ‘BMI’, and ‘Age’ as top risk indicators and more 
 
 
 
