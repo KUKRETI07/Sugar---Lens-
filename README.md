@@ -1,116 +1,73 @@
-# Sugar-Lens
+# Sugar Lens – Diabetes Risk Prediction & Analysis
 
-Overview
+# Overview
 
-Sugar Lens is a full-stack Data Analytics and Machine Learning project aimed at analyzing and predicting diabetes risk in the Indian population. This end-to-end project integrates real-world data sources, machine learning models, and interactive dashboards to extract valuable health insights.
+Sugar Lens is a healthcare-focused data science project that predicts diabetes risk using real-world datasets. By combining Indian public health data and the Pima Indians Diabetes Database, this project aims to help identify high-risk individuals and assist in public health decision-making.
 
+# Problem Statement
 
-Objectives
+Early identification of individuals at risk of diabetes is crucial for proactive healthcare intervention. This project leverages machine learning and visual analytics to uncover key diabetes indicators and predict risk with high accuracy.
 
-* Analyze diabetes prevalence across Indian states.
+# Tools & Technologies
 
-* Predict diabetes risk using medical and lifestyle parameters.
+* Languages: Python, SQL (MySQL)
 
-* Identify key features causing diabetes in the Indian population.
+* Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
 
-* Visualize insights using Power BI for data storytelling.
+* ML Model: Random Forest
 
+* Techniques: PCA, Feature Engineering, Outlier Handling, EDA
 
-Tools & Technologies
+* BI Tool: Power BI (DAX, KPIs, Slicers)
 
-* SQL (MySQL): Data cleaning, transformation, and analysis
+* Others: Jupyter Notebook, Git, GitHub
 
-* Python (Jupyter Notebook): Data wrangling, EDA, ML modeling
-
-* Power BI: Interactive dashboards and data visualization
-
-* Machine Learning: Random Forest, Logistic Regression, Decision Tree
-
-
-Data Sources
-
-* Indian Government & WHO Data: Number of diabetic patients, hospitals, state-wise distribution, budget allocations.
-
-* Kaggle Dataset: Biological and lifestyle data relevant to diabetes risk.
-
-
-Workflow
+ #  Project Workflow
 
 1. Data Collection & Cleaning
 
-* Merged Indian demographic/medical data with Kaggle biological dataset.
+* Imported datasets into SQL and merged using JOINs
 
-* Cleaned datasets: handled nulls, removed duplicates, standardized column names.
+* Removed duplicates, handled missing values
 
+* Filtered and standardized using SQL + Pandas
 
-2. SQL Analysis
+2. Exploratory Data Analysis (EDA)
 
-* Performed joins, CASE statements, aggregations.
+* Analyzed patterns in glucose level, age, BMI, pregnancies, and insulin
 
-* Derived insights like:
+* Created distribution plots and correlations
 
-* Top states by diabetic patient count
+3. Feature Engineering
 
-* Government health budget distribution
+* Created BMI groups, Age bands, and binary risk indicators
 
-* Hospital availability in each state of india 
-  
+* Handled outliers using IQR
 
-3. EDA in Python
+* Applied PCA to reduce dimensions and improve model speed
 
-* Visualized distributions of BMI, blood glucose levels, age, etc.
+4. Model Building
 
-* Heatmap for feature correlation (e.g., smoking, BMI vs. diabetes)
+* Trained a Random Forest Classifier
 
-* Transformed categorical to numeric values for modeling.
-  
+* Achieved 90% accuracy in predicting diabetes risk
 
-4. Machine Learning Pipeline
-
-* Created a Diabetes Risk Scorecard using Random Forest.
-
-* Feature importance plotted to highlight impactful features.
-
-* Trained multiple models
-
-* Logistic Regression (Final choice: 95% Accuracy, 94% F1 Score)
-
-* Hyperparameter tuning using GridSearchCV.
-
-* Deployed final LR model locally.
-  
+* Evaluated using Confusion Matrix, Precision, Recall, ROC-AUC
 
 5. Power BI Dashboard
 
-* Two fully functional dashboards:
+* Designed a full dashboard for risk segmentation
 
-* National Diabetes Trends: Prevalence by state, budget visualization, hospital infrastructure.
+* KPIs: Total Patients, Diabetic %, BMI Distribution
 
-* Patient Health Analytics: BMI, glucose, age trends, and feature correlations.
+* Slicers: Gender, Age Group, Region
 
+* Risk Categories: Low, Moderate, High
 
+# Key Insights
 
-Key Insights
+* Patients with high glucose, high BMI, and higher pregnancies showed higher diabetes risk
 
-* Over 60% of diabetic patients are concentrated in 8 Indian states.
+* Younger patients with healthy BMI had lower risk profiles
 
-* Smoking and BMI are two of the top features associated with diabetes.
-
-* Logistic Regression outperformed other models in both accuracy and interpretability.
-
-* Power BI dashboards provide clear, actionable health insights for policymakers and health departments.
-
-
-
-Future Scope
-
-* Host model using Streamlit or Flask on cloud.
-
-* Integrate real-time data APIs.
-
-* Collaborate with NGOs or government agencies for deployment
-
-
-
-
-
+* Public health authorities can use these risk segments for targeted intervention
