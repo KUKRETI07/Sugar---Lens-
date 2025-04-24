@@ -1,14 +1,15 @@
 # Sugar Lens – Diabetes Risk Prediction & Analysis
 
+# Problem Statement
+
+Diabetes is a chronic condition affecting millions globally, with rising cases in India. Early prediction can save lives, reduce complications, and guide lifestyle changes.
+Sugar - Lens is an end-to-end data analytics and machine learning project focused on predicting diabetes risk using public health data from India and the PIMA Indian Diabetes dataset.
+
 # Overview
 
 Sugar Lens is a healthcare-focused data science project that predicts diabetes risk using real-world datasets. By combining Indian public health data and the Pima Indians Diabetes Database, this project aims to help identify high-risk individuals and assist in public health decision-making.
 
 ![Image](https://github.com/KUKRETI07/Sugar---Lens-/blob/1377b347c8752c8d770cdafc1fa2a655b30e267e/Screenshot%20(50).png)
-
-# Problem Statement
-
-Early identification of individuals at risk of diabetes is crucial for proactive healthcare intervention. This project leverages machine learning and visual analytics to uncover key diabetes indicators and predict risk with high accuracy.
 
 # Tools & Technologies
 
@@ -73,3 +74,11 @@ Early identification of individuals at risk of diabetes is crucial for proactive
 * Younger patients with healthy BMI had lower risk profiles
 
 * Public health authorities can use these risk segments for targeted intervention
+
+# Learnings
+ 
+ * Practical application of end-to-end data science workflow
+
+ * Strengthened SQL + Python + Power BI integration
+
+ * Real-world understanding of health analytics
