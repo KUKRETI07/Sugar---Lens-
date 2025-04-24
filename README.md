@@ -1,8 +1,5 @@
 # Sugar Lens – Diabetes Risk Prediction & Analysis
 
-![Power BI Dashboard](Screenshot(50).png)
-
-
 # Overview
 
 Sugar Lens is a healthcare-focused data science project that predicts diabetes risk using real-world datasets. By combining Indian public health data and the Pima Indians Diabetes Database, this project aims to help identify high-risk individuals and assist in public health decision-making.
