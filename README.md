@@ -27,7 +27,7 @@ Sugar Lens is a healthcare-focused data science project that predicts diabetes r
 
  #  Project Workflow
 
-1. Data Collection & Cleaning
+# 1. Data Collection & Cleaning
 
 * Imported datasets into SQL and merged using JOINs
 
@@ -35,13 +35,13 @@ Sugar Lens is a healthcare-focused data science project that predicts diabetes r
 
 * Filtered and standardized using SQL + Pandas
 
-2. Exploratory Data Analysis (EDA)
+# 2. Exploratory Data Analysis (EDA)
 
 * Analyzed patterns in glucose level, age, BMI, pregnancies, and insulin
 
 * Created distribution plots and correlations
 
-3. Feature Engineering
+# 3. Feature Engineering
 
 * Created BMI groups, Age bands, and binary risk indicators
 
@@ -49,7 +49,7 @@ Sugar Lens is a healthcare-focused data science project that predicts diabetes r
 
 * Applied PCA to reduce dimensions and improve model speed
 
-4. Model Building
+# 4. Model Building
 
 * Trained a Random Forest Classifier
 
@@ -57,7 +57,7 @@ Sugar Lens is a healthcare-focused data science project that predicts diabetes r
 
 * Evaluated using Confusion Matrix, Precision, Recall, ROC-AUC
 
-5. Power BI Dashboard
+# 5. Power BI Dashboard
 
 * Designed a full dashboard for risk segmentation
 
